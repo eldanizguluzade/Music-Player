@@ -45,7 +45,7 @@ const List: React.FC<ListProps> = (props) => {
 
  useEffect(()=>{
   if(!newData) return;
-  
+
   pushData(newData);
  },[newData]);
 

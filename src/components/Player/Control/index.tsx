@@ -12,9 +12,10 @@ function Control ({music}:any) {
 
   const getMusicPath = (item:any) => {
     if(!item?.path) return;   
-
+    
     return "musics/" + item.path;
   }
+
 
   return(
     <div className="control">
