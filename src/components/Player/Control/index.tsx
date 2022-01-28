@@ -10,24 +10,20 @@ function Control ({music}:any) {
   // const secondsConvertMinute = (seconds:number) =>
   //     Math.floor(seconds / 60)  + ":" + Math.floor(seconds) %  60;
 
-     const getMusicPath = (item:any) => {
-       if(!item?.path) return;
-       
-       return "musics/" + item.path;
-     }
+  const getMusicPath = (item:any) => {
+    if(!item?.path) return;   
 
+    return "musics/" + item.path;
+  }
 
   return(
     <div className="control">
-
     <AudioPlayer
       autoPlay
       src={getMusicPath(music)}
       progressJumpStep ={2000}
      // other props here
      />
-   
-
 
     {/* 
      <div className="duration">

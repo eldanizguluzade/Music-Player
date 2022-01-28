@@ -1,15 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import Player from './components/Player';
 import MusicList from './components/MusicList';
-import fetchData from './api';
 import './styles/App.css';
 import axios from 'axios';
+import { IMusicItem } from './model';
 
 
 function App() {
-
  const [data, setData] = useState<any>();
- const [item, setItem] = useState<any>();
+ const [item, setItem] = useState<IMusicItem>();
 
  useEffect(() =>{
     const fetchPosts = async () =>{
@@ -22,7 +21,6 @@ function App() {
       setData(res?.data)
   }
   fetchPosts()
-  
 }, [])
 
   return (
