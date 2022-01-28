@@ -1,0 +1,114 @@
+.App-header {
+  font-size: calc(10px + 1vmin);
+  color: white;
+  padding-left: 2rem;
+}
+
+body{
+  background-color: #272148;
+  color: white;
+  min-height: 100vh;
+}
+
+main{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.Player {
+   width: 400px;
+   align-self: center;
+}
+
+.Player > .container{
+  background-color: #000;
+  color:#fff;
+  width: 400px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.Player > .header, .Player > .footer{
+  text-align: center;
+  padding: .5rem 0;
+}
+
+
+.Player > .footer > .btn-group{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+} 
+
+.MusicList {
+  background-color: #000;
+  text-align: center;
+  width: 300px;
+  height: 70%;
+  position: absolute;
+  right: 0;
+}
+.MusicList  ul > li {
+  text-align: left;
+  margin: 5px 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+ul{
+  list-style: none;
+  padding: 0 15px;
+}
+a{
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+img{
+  width: 100%;
+  height: 100%;
+}
+a:hover{
+  color: rgb(196, 194, 194);
+}
+
+.hide{
+  opacity: .3;
+}
+.playing{
+  color:rgb(255, 95, 8);
+}
+.duration{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: .5rem 1rem;
+}
+
+@media only screen and (max-width: 1100px) {
+
+  main{
+     flex-wrap: wrap;
+  }
+
+  .MusicList {
+    position: relative;
+    margin: 0 20px;
+
+  }
+  
+}
+
+@media only screen and (max-width: 800px) {
+  .MusicList {
+    margin-top: 60px;
+    width: 60%;
+  }
+}

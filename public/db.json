@@ -1,0 +1,47 @@
+[
+        {
+          "title":"Antonio Vivaldi - Storm",
+          "path":"0.mp3",
+          "hide":0
+        },
+        {
+          "title":"Hozier - Take Me To Church",
+          "path":"1.mp3",
+          "hide":0
+        },
+        {
+          "title":"Luciano Pavarotti, James Brown - It's A Man's",
+          "path":"2.mp3",
+          "hide":0
+        },
+         {
+          "title":"No Tears Left To Cry Ariana Grande",
+          "path":"3.mp3",
+          "hide":1
+        },
+        {
+          "title":"Pentatonix - Hallelujah",
+          "path":"4.mp3",
+          "hide":0
+        },
+         {
+          "title":"Jack Vidgen sings 'Hello'",
+          "path":"5.mp3",
+          "hide":0
+        },
+        {
+          "title":"Sheldon Riley sings 'Frozen'",
+          "path":"6.mp3",
+          "hide":0
+        },
+        {
+          "title":"The Phantom of the Opera",
+          "path":"7.mp3",
+          "hide":0
+        },
+        {
+          "title":"'Lure' by Christian Reindl & Dream Harlowe",
+          "path":"8.mp3",
+          "hide":0
+        }
+]
