@@ -30,7 +30,7 @@ function App() {
       </header>
       <main>
         <Player item={item}/>
-        <MusicList data={data} choosed={(item:any) => setItem(item)}/> 
+        <MusicList data={data} choosed={(item:IMusicItem) => setItem(item)}/> 
       </main>
     </div>
   );
